@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+p{
+    text-align: center;
+    font-size: 25px; 
+}
+.select{
+    text-align: center;
+    font-size: 35px;
+}
+.select button{
+    text-align: center;
+    font-size: 35px;
+}
+.centro{
+    text-align: center;
+    color: yellow;
+    font-size: 45px;
+}
+ div script if result{
+    color: blue;
+}
+.else{
+    color: palevioletred;
+}

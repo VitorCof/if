@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo 03</title>
+</head>
+<body>
+    <h1>Qual é o seu Gênero</h1>
+    <p>Diga qual é seu gênero</p>
+
+    <form class="select" id="form">
+        <select class="select button" id="select">
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+          </select>
+        <button>Confirmar</button>
+    </form>
+
+    <div  class="centro else" id="result"></div>
+
+
+    <script>
+        function onsubmit(event) {
+            event.preventDefault()
+           
+            let op = parseFloat(select.value)
+
+          if (op === 1) 
+          result.innerHTML=`Você é um Homen`
+          else
+          result.innerHTML=`Você é Uma Mulher`
+
+          
+           
+
+                            
+            
+ 
+ 
+           
+
+        }
+
+        form.addEventListener("submit", onsubmit)
+
+
+
+    </script>
+</body>
+</html>
